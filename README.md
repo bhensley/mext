@@ -9,6 +9,5 @@ development:
   twilio_auth_token: 'AUTH TOKEN'
 
 production:
-  twilio_account_sid: '
-  ACCOUNT SID'
+  twilio_account_sid: 'ACCOUNT SID'
   twilio_auth_token: 'AUTH TOKEN'

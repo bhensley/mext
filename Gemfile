@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'bootstrap-sass', '~> 3.3.4.1'
+gem 'compass', '~> 1.0.3'
 gem 'haml', '~> 4.0.6'
 gem 'twilio-ruby', '~> 4.1.0'
 

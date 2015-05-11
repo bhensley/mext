@@ -1,7 +1,9 @@
-%h1 Viewing All Texts...
-- @texts.each do |txt|
-  - if txt.from == @my_number
-    %p
-      %b= txt.body
-  - else
-    %p= txt.body
+.page-header
+  %h1 Viewing All Texts...
+
+%ul.list-group
+  - @texts.each do |txt|
+    - if txt.from == @my_number
+      %li.list-group-item.outbound= txt.body
+    - else
+      %li.list-group-item.inbound= txt.body

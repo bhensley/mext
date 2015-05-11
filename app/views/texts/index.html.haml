@@ -1,0 +1,7 @@
+%h1 Viewing All Texts...
+- @texts.each do |txt|
+  - if txt.from == @my_number
+    %p
+      %b= txt.body
+  - else
+    %p= txt.body

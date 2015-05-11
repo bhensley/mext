@@ -7,5 +7,6 @@ class ApplicationController < ActionController::Base
   private
     def set_twilio
       @twilio = Twilio::REST::Client.new Rails.application.secrets.twilio_account_sid, Rails.application.secrets.twilio_auth_token
+      @my_number = '+16032392101'
     end
 end
